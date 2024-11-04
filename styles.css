@@ -1,0 +1,133 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+img {
+    width: 100px;
+}
+
+.item {
+    width: 200px;
+    padding: 0 20px;
+}
+
+.hero {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chorley-919.JPG/1200px-Chorley-919.JPG);
+    height: 350px;
+    background-size: cover;
+    margin-top: 0;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+#chorley, #chorley-sub {
+    background: #E63946;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+#council {
+    margin: 0 auto;
+    background-image: url(https://chorley.gov.uk/themes/chorley-galaxy/dist/images/opengraph/opengraph.jpg?1.8.4);
+    width: 450px;
+    height: 200px;
+    background-size: cover;
+}
+
+.act-sctn {
+    background: #457B9D;
+    margin: 0;
+    padding: 10px 20px 30px 20px; color: white;
+}
+
+.activities {
+    display: flex;
+    background: #457B9D;
+    justify-content: space-evenly;
+    flex-basis: 0;
+}
+
+#crack {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://www.prosperityhaven.com/wp-content/uploads/2022/07/crack-pipe-scaled.jpg);
+    background-size: cover;
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+#crack:hover {
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnR2NnRhMWU4eWRpbWQ2bDFqZXcyOGx1czJsYzg3Y3Q5cDV5cG1maiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FOHgowEicoYKI/giphy.webp);
+}
+
+#mugged {
+    background-image: url(https://www.carnivalstore.co.uk/wp-content/uploads/2022/04/Bank-Robber-Instant-Kit_21513_img-700x700.jpg.webp);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+#mugged:hover {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGgxeHpsbDZlb2lyNWs0cnI3amdpeWVkMXp0ZWx6dDhuNjh0MnJteiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3osBL3lirY0BboHVkY/giphy.webp);
+}
+
+#soop {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5aafcf18cc8fedfba647218a/1697914678056-NMA9J09OSTFCWEWRPTY4/image-asset.jpeg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+#ken {
+    background-image: url(https://i.ytimg.com/vi/GRGOLmnZWRk/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-BIAC4AOKAgwIABABGH8gGCghMA8=&rs=AOn4CLBv8kVF2xhss6xvkLcLn-8051SDfg);
+    width: 400px;
+    background-size: cover;
+}
+
+.guide {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    background: ;
+}
+
+.guide-text {
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #023047;
+    color: #FFB703;
+    border-bottom: 10px solid #FB8500;
+    border-right: 10px solid #FB8500;
+    border-radius: 50px;
+}
